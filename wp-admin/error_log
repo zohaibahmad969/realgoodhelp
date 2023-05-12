@@ -1,0 +1,15 @@
+[27-Jul-2022 16:06:10 UTC] PHP Warning:  Undefined variable $user_id in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 242
+[27-Jul-2022 16:08:10 UTC] PHP Warning:  Undefined variable $user_id in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 242
+[27-Jul-2022 16:10:11 UTC] PHP Warning:  Undefined variable $user_id in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 242
+[27-Jul-2022 16:12:12 UTC] PHP Warning:  Undefined variable $user_id in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 242
+[27-Jul-2022 16:14:12 UTC] PHP Warning:  Undefined variable $user_id in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 242
+[27-Jul-2022 16:16:13 UTC] PHP Warning:  Undefined variable $user_id in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 242
+[28-Jul-2022 11:15:51 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 11:15:54 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 11:16:14 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 11:16:51 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 11:17:05 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 11:17:52 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 11:18:12 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 11:18:15 UTC] PHP Parse error:  syntax error, unexpected token "var" in /home1/realgelp/public_html/wp-content/themes/realgh/functions.php on line 233
+[28-Jul-2022 15:40:37 UTC] PHP Warning:  Attempt to read property "user_login" on bool in /home1/realgelp/public_html/wp-admin/users.php on line 343

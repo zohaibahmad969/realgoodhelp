@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1200px){
+	.fz-22 {
+		font-size: 22px;
+	}
+	.fz-28 {
+		font-size: 28px;
+	}
+
+	/*----------------------------------mainscreen-------------------------------*/
+	.advantages__title--mobile {
+		display: block;
+	}
+	.advantages__title--desktop {
+		display: none;
+	}
+
+	/*----------------------------------dashboard-------------------------------*/
+	.banner--desktop {
+		display: none;
+	}
+	.banner--mobile {
+		display: flex;
+	}
+
+	/*----------------------------------dashboard-edit-------------------------------*/
+	.psycho-edit__name--top {
+		display: none;
+	}
+	.psycho-edit__name--right {
+		display: block;
+	}
+
+	/*----------------------------------single-------------------------------*/
+	.single-psycho__aside--desktop {
+		display: none;
+	}
+	.single-psycho__aside--mobile {
+		display: flex;
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	.fz-28 {
+		font-size: 24px;
+	}
+
+	/*----------------------------------popups-------------------------------*/
+	.popup__body--side {
+		width: 60vw;
+	}
+	.popup__body--bg {
+		background: var(--bg-color);
+	}
+	.regist-popup__body--bg {
+		grid-template-columns: 1fr;
+		padding: 0;
+	}
+	.login-popup__body--bg {
+		grid-template-columns: 1fr;
+	}
+
+	/*----------------------------------mainscreen-------------------------------*/
+	.connect--mobile {
+		display: block;
+	}
+	.connect--desktop {
+		display: none;
+	}
+
+	/*----------------------------------dashboard-------------------------------*/
+	.banner__bg--desktop {
+		display: none;
+	}
+	.banner__bg--mobile {
+		display: block;
+	}
+	.dashboard__review--desktop {
+		display: none;
+	}
+	.dashboard__review--mobile {
+		display: flex;
+	}
+
+	/*----------------------------------become-------------------------------*/
+	.cooperation__title--mobile {
+		display: block;
+	}
+	.cooperation__title--desktop {
+		display: none;
+	}
+
+	/*----------------------------------single-------------------------------*/
+	.single-client__button--desktop {
+		display: none;
+	}
+	.single-client__button--mobile {
+		display: flex;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.fz-12 {
+		font-size: 12px;
+	}
+	.fz-14 {
+		font-size: 14px;
+	}
+	.fz-16 {
+		font-size: 16px;
+	}
+	.fz-18 {
+		font-size: 16px;
+	}
+	.fz-22 {
+		font-size: 18px;
+	}
+	.fz-28 {
+		font-size: 22px;
+	}
+	.button--big {
+		max-width: 100%;
+	}
+
+	
+	.psycho-card__button--desktop {
+		display: none;
+	}
+	.psycho-card__button--mobile {
+		display: flex;
+	}
+	.psycho-info--desktop {
+		display: none;
+	}
+	.psycho-info--mobile {
+		display: flex;
+	}
+
+	/*----------------------------------dashboard-edit-------------------------------*/
+	.psycho-edit__name--top {
+		display: block;
+	}
+	.psycho-edit__name--right {
+		display: none;
+	}
+
+	/*----------------------------------mobile-------------------------------*/
+	.mobile--fxd-cr {
+		flex-direction: column-reverse;
+	}
+	.mobile-card--p-0 {
+		padding: 0;
+		background: var(--bg-color);
+	}
+}

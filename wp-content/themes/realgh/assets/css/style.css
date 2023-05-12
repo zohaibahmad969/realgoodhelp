@@ -1,0 +1,119 @@
+/*
+* Reset browser styles.
+*/
+@import url('reset.css');
+
+/*
+* Connecting fonts.
+*/
+@import url('fonts.css');
+
+/*
+* Variables for styles.
+*/
+@import url('variables.css');
+
+/*
+* Common styles for elements.
+*/
+@import url('common.css');
+
+/*
+* Header styles.
+*/
+@import url('header.css');
+
+/*
+* Main styles.
+*/
+@import url('main.css');
+
+/*
+* Psychologists page styles.
+*/
+@import url('psychologists.css');
+
+/*
+* Request page styles.
+*/
+@import url('requset.css');
+
+/*
+* Questionnaire page styles.
+*/
+@import url('questionnaire.css');
+
+/*
+* Dashboard page styles.
+*/
+@import url('dashboard.css');
+
+/*
+* Booking page styles.
+*/
+@import url('booking.css');
+
+/*
+* Single pages styles.
+*/
+@import url('single.css');
+
+/*
+* Become psychologist page styles.
+*/
+@import url('become.css');
+
+/*
+* Schedule page styles.
+*/
+@import url('schedule.css');
+
+/*
+* Invite page styles.
+*/
+@import url('invite.css');
+
+/*
+* Reminder page styles.
+*/
+@import url('reminder.css');
+
+/*
+* Withdraw page styles.
+*/
+@import url('withdraw.css');
+
+/*
+* Thank you page styles.
+*/
+@import url('thank-you.css');
+
+/*
+* 404 page styles.
+*/
+@import url('404.css');
+
+/*
+* Sunil styles.
+*/
+@import url('sunil.css');
+
+/*
+* Zohaib styles.
+*/
+/*@import url('zohaib.css');*/
+
+/*
+* Footer styles.
+*/
+@import url('footer.css');
+
+/*
+* Modifiers for elements.
+*/
+@import url('modifiers.css');
+
+/*
+* @media.
+*/
+@import url('@media.css');

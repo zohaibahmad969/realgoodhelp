@@ -1,0 +1,43 @@
+/*------------------------------tabs-----------------------------------*/
+.tabs-container {
+	width: 100%;
+}
+.tabs {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.tab-block {
+	width: 100%;
+	height: 100%;
+}
+.tab {
+	display: none;
+}
+.tab-label {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.tabs__content {
+	position: relative;
+}
+.tab__item {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	opacity: 0;
+	pointer-events: none;
+	visibility: hidden;
+	transition: var(--hover-time) ease-out;
+	transition-property: opacity, visibility;
+}
+.tab__item.active {
+	opacity: 1;
+	visibility: visible;
+	position: static;
+	pointer-events: auto;
+}

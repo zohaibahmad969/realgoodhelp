@@ -1,0 +1,26 @@
+/*----------------------------------header-------------------------------*/
+.header {
+	position: fixed;
+	z-index: 6;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: var(--header-height);
+	display: flex;
+	background: var(--light-color);
+	box-sizing: border-box;
+}
+.header__content {
+	width: 100%;
+	column-gap: 20px;
+}
+.header__left {
+	column-gap: 46px;
+}
+.header__logo {
+	width: 140px;
+}
+.header__right {
+	column-gap: 20px;
+	row-gap: 8px;
+}

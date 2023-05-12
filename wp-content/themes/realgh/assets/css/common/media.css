@@ -1,0 +1,31 @@
+/*----------------------------------media-------------------------------*/
+
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.svg{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.logo {
+	flex-shrink: 0;
+	display: block;
+	width: 190px;
+	height: auto;
+}
+.video {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	border-radius: 8px;
+}
+.calendar-img {
+	max-width: 364px;
+	margin: auto;
+}

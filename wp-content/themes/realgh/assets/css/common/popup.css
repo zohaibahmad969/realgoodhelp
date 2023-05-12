@@ -1,0 +1,306 @@
+.popup {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,.5);
+	opacity: 0;
+	visibility: hidden;
+	transition: var(--hover-time) ease-out;
+	transition-property: opacity, visibility;
+}
+.popup__body {
+	overflow: auto;
+	max-height: 90vh;
+	max-width: 90vw;
+	width: 670px;
+	display: flex;
+   flex-direction: column;
+	background: var(--bg-color);
+	border-radius: 16px;
+	box-sizing: border-box;
+	padding: 40px;
+	padding-top: 49px;
+	transform: translateY(-100%);
+	transition: transform var(--hover-time) ease-out;
+}
+.popup.show {
+	opacity: 1;
+	visibility: visible;
+}
+.popup.show > .popup__body {
+	transform: translate(0, 0);
+}
+.popup__container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background: var(--bg-color);
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	padding: 20px 5px 20px 90px;
+}
+.popup__side {
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	padding: 125px 60px 20px;
+}
+.popup__side-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 63px;
+}
+.popup-side__text-block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.popup__header {
+	height: 50px;
+	align-items: flex-start;
+}
+.popup__content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	padding-right: 85px;
+	row-gap: 30px;
+}
+.popup__title {
+	width: calc(100% - 45px);
+	font-size: 22px;
+}
+
+/*----------------------------------menu-------------------------------*/
+.menu__popup {}
+.menu-popup__body {}
+.menu-popup__close-button {
+	margin-left: auto;
+}
+.menu__popup-content {
+	justify-content: space-between;
+	padding-bottom: 80px;
+	padding-right: 56px;
+}
+.menu-popup__button {
+	width: 100%;
+	max-width: 250px;
+}
+.menu-popup__login-button {
+	order: 2;
+}
+
+/*----------------------------------regist-------------------------------*/
+.regist__popup {}
+.regist-popup__body {
+	width: 1150px;
+}
+.regist-popup__bg {
+	width: 110%;
+	object-position: left;
+}
+.regist-popup__type {
+	display: grid;
+	grid-template-columns: 2fr 7fr;
+}
+.regist-popup__type-variants {
+	flex-grow: 1;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 5px;
+}
+.regist-popup__text {
+	text-align: center;
+}
+
+/*----------------------------------login-------------------------------*/
+.login__popup {
+	height: 100%;
+}
+.regist-popup__text {
+	text-align: center;
+}
+.login-popup__bg {
+	width: 110%;
+	object-position: right;
+}
+.login-popup__more {
+	column-gap: 20px;
+}
+
+/*----------------------------------filter-------------------------------*/
+.filter__popup {}
+.filter-popup__body {
+	row-gap: 16px;
+}
+.filter-popup__content {
+	row-gap: 10px;
+	margin-bottom: 25px;
+}
+.popup__filter-item {
+	height: 40px;
+	background: #F0F0F3;
+	border-radius: 8px;
+	padding: 0px 16px;
+	margin-bottom: 10px;
+	transition: background var(--hover-time) ease-out;
+}
+.popup__filter-item:hover {
+	background: #E9E9E9;
+}
+.readmore.show > .popup__filter-item {
+	background: #F8F9FB;
+}
+.popup-filter__readmore-content {
+	background: #F8F9FB;
+}
+.filter-popup__button-block {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	background: var(--bg-color);
+}
+.filter-popup__button {
+	height: 45px;
+	padding: 0;
+}
+.filter-popup__clear-button {}
+.filter-popup__send-button {}
+
+/*----------------------------------success-regist-------------------------------*/
+.suc-reg__popup {}
+.suc-reg-popup__body {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	row-gap: 30px;
+}
+.suc-reg__popup-text {
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+/*----------------------------------money-back-------------------------------*/
+.money-back__popup {}
+
+/*----------------------------------calendar-------------------------------*/
+.calendar__popup {}
+.calendar__body {
+	width: 100%;
+	max-width: min(1390px, 90vw);
+	row-gap: 16px;
+}
+
+/*----------------------------------support-------------------------------*/
+.support__popup {}
+.support-popup__body {}
+.support-popup__form-content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+/*----------------------------------withdraw-------------------------------*/
+.withdraw__popup {}
+.withdraw-popup__body {}
+.withdraw-popup__form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.withdraw__max-amount {
+	color: var(--main-color);
+	cursor: pointer;
+}
+
+/*----------------------------------review-------------------------------*/
+.review__popup {}
+.review-popup__body {}
+
+/*----------------------------------review-success-------------------------------*/
+.review-suc__popup {}
+.review-suc__popup-body {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+}
+
+/*----------------------------------reset-pass-------------------------------*/
+.reset-pass__popup {}
+.reset-popup__body {}
+.reset-popup__content {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	row-gap: 20px;
+	max-width: 480px;
+	margin: auto;
+}
+.reset-popup__email {
+	font-weight: 600;
+}
+
+.reset-request__popup {}
+.reset-request__form {}
+
+/*----------------------------------cancel-------------------------------*/
+.cancel__popup {}
+.cancel-popup__body {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+
+/*----------------------------------request-------------------------------*/
+.suc-request__popup {}
+.suc-request__popup-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	row-gap: 40px;
+}
+
+/*----------------------------------reminder-------------------------------*/
+.suc-reminder__popup {}
+.suc-reminder__popup-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	row-gap: 20px;
+}
+
+/*----------------------------------book-------------------------------*/
+.book__popup {}
+.book-popup__body {
+	position: relative;
+}
+.book-popup__top {
+	margin-bottom: 30px;
+}
+.book-popup__h-line {
+	margin-bottom: 30px;
+}
+.book-popup__form {}
+.book-popup__radio-group {
+	display: flex;
+	align-items: center;
+	column-gap: 120px;
+}
+.book-popup__bot {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 60px;
+}
+.book-popup__button {
+	padding: 19px 100px;
+}

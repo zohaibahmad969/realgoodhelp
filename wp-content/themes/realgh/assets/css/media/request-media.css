@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1200px){
+	.request__name {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.request__header {
+		grid-template-rows: 240px 1fr;
+		grid-template-columns: 1fr;
+	}
+	.request__name {
+		font-size: 24px;
+	}
+	.request__textarea {
+		height: 118px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.request__name {
+		font-size: 24px;
+	}
+	.request__form {
+		padding-bottom: 40px;
+	}
+}

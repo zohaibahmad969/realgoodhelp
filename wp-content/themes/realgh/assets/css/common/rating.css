@@ -1,0 +1,31 @@
+/*----------------------------------rating-------------------------------*/
+.rating-block {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	column-gap: 12px;
+}
+.rating__container {
+	position: relative;
+}
+.rating {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.rating__score {
+	pointer-events: none;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+}
+.rating__star {
+	width: 24px;
+	height: 24px;
+	stroke: #BDC1CF;
+}
+.rating__star:not(:last-child) {
+	padding-right: 5px;
+}

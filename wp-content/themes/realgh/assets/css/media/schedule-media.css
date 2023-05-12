@@ -1,0 +1,7 @@
+@media only screen and (max-width: 800px){
+	/*----------------------------------client-schedule-------------------------------*/
+	.client-schedule__card {
+		flex-direction: column;
+		align-items: stretch;
+	}
+}

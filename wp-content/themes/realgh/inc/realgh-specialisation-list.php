@@ -1,0 +1,51 @@
+<?php
+
+/*
+ * List of specialisations
+*/
+
+$specialisations = array(
+	'Addictions' => 'Addictions',
+	'Depression' => 'Depression',
+	'Parenting' => 'Parenting',
+	'ADHD &amp; Attention Issues' => 'ADHD &amp; Attention Issues',
+	'Divorce' => 'Divorce',
+	'Phobias' => 'Phobias',
+	'Adoption' => 'Adoption',
+	'Domestic Violence' => 'Domestic Violence',
+	'Postnatal Depression' => 'Postnatal Depression',
+	'Agoraphobia' => 'Agoraphobia',
+	'Eating &amp; Food Disorders' => 'Eating &amp; Food Disorders',
+	'Procrastination' => 'Procrastination',
+	'Alzheimers' => 'Alzheimers',
+	'Family Issues' => 'Family Issues',
+	'PTSD' => 'PTSD',
+	'Anger Management' => 'Anger Management',
+	'GAD' => 'GAD',
+	'Relationship Issues' => 'Relationship Issues',
+	'Anxiety' => 'Anxiety',
+	'Grief' => 'Grief',
+	'Self Esteem' => 'Self Esteem',
+	'Aspergers Syndrome' => 'Aspergers Syndrome',
+	'Health Anxiety' => 'Health Anxiety',
+	'Sex &amp; Sexuality' => 'Sex &amp; Sexuality',
+	'Autism' => 'Autism',
+	'Infertility' => 'Infertility',
+	'Sleep or Insomnia' => 'Sleep or Insomnia',
+	'Bipolar Disorder' => 'Bipolar Disorder',
+	'Intimacy' => 'Intimacy',
+	'Social Anxiety' => 'Social Anxiety',
+	'Borderline Personality' => 'Borderline Personality',
+	'LGBTQ' => 'LGBTQ',
+	'Speech Anxiety' => 'Speech Anxiety',
+	'Career Difficulties' => 'Career Difficulties',
+	'Life Changes' => 'Life Changes',
+	'Stress' => 'Stress',
+	'Marriage Issues' => 'Marriage Issues',
+	'Trauma and or Abuse' => 'Trauma and or Abuse',
+	'Chronic Pain' => 'Chronic Pain',
+	'OCD' => 'OCD',
+	'Weight Loss' => 'Weight Loss',
+	'Compassion Fatigue' => 'Compassion Fatigue',
+	'Panic Attack' => 'Panic Attack'
+);

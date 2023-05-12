@@ -1,0 +1,515 @@
+@media only screen and (max-width: 1400px){
+	/*----------------------------------popup-------------------------------*/
+	.filter__list {
+		max-height: 100%;
+	}
+
+	/*----------------------------------filter-------------------------------*/
+	.filter__options {
+		display: none;
+	}
+	.filter__popup-button {
+		display: flex;
+	}
+}
+
+
+
+@media only screen and (max-width: 1200px){
+	.title {
+		font-size: 32px;
+	}
+	.popup__title {
+		font-size: 22px;
+	}
+	.section {
+		padding: 50px 0;
+	}
+	.section__title {
+		text-align: left;
+	}
+	.section__spacing {
+		margin-bottom: 40px;
+	}
+	.play-button {
+		width: 80px;
+		height: 80px;
+		font-size: 18px;
+	}
+
+	/*----------------------------------nav-------------------------------*/
+	.menu {
+		column-gap: 40px;
+	}
+
+	/*----------------------------------info-cards-------------------------------*/
+	.info__card {
+		padding: 30px;
+	}
+
+	/*----------------------------------psycho-card-------------------------------*/
+	.psycho__card {
+		grid-column-gap: 20px;
+		padding: 20px;
+	}
+
+	/*----------------------------------experts-------------------------------*/
+	.experts__title {
+		width: 90%;
+	}
+	.experts__text {
+		width: 90%;
+	}
+	.experts__card:nth-child(5) {
+		padding: 0px 22px;
+	}
+
+	/*----------------------------------aside-------------------------------*/
+	.aside__container {
+		grid-template-columns: 1fr;
+	}
+	.aside__rev-container > .aside {
+		order: 1;
+	}
+	.aside__rev-container > .aside__main-content {
+		order: 2;
+	}
+	.aside {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		column-gap: 50px;
+		row-gap: 20px;
+	}
+
+	/*----------------------------------grid-------------------------------*/
+	.grid__column {
+		grid-template-rows: none;
+	}
+
+	/*----------------------------------pay-------------------------------*/
+	.pay-card {
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+		grid-column-gap: 80px;
+		grid-row-gap: 30px;
+	}
+	.pay-card__button {
+		max-width: 300px;
+	}
+
+	/*----------------------------------FAQ-------------------------------*/
+	.faq__readmore-title {
+		font-size: 22px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	:root{
+		--header-height: 90px;
+		--main-slider-count: 1;
+	}
+	.form__row {
+		grid-template-columns: 1fr;
+	}
+
+	/*----------------------------------nav-------------------------------*/
+	.menu {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.menu-button {
+		display: flex;
+	}
+	.menu__item {
+		width: 100%;
+		align-items: flex-start;
+		border-radius: 4px;
+		transition: background var(--hover-time) ease-out;
+	}
+	.menu__item:hover::after {
+		width: 0;
+	}
+	.menu__item:hover > .menu__link {
+		color: var(--dark-color);
+	}
+	.menu__item:hover {
+		background: #E5EEFF;
+	}
+	.menu__link {
+		padding: 8px 14px;
+	}
+
+	/*----------------------------------form-------------------------------*/
+	.form {
+		row-gap: 30px;
+	}
+
+	/*----------------------------------sliders-------------------------------*/
+	.slider__tape--points {
+		margin-bottom: 30px;
+	}
+
+	/*----------------------------------popups-------------------------------*/
+	.popup__content {
+		padding-right: 0px;
+	}
+	.popup__container {
+		position: static;
+		padding-right: 85px;
+		padding-left: 70px;
+	}
+	.popup__side {
+		display: none;
+	}
+
+	/*----------------------------------info-cards-------------------------------*/
+	.info__cards {
+		grid-template-columns: 1fr;
+		grid-row-gap: 40px;
+		box-shadow: none;
+		padding: 0;
+	}
+	.info__card {
+		padding: 0;
+	}
+	.info__card:not(:last-child)::after {
+		display: none;
+	}
+
+	/*----------------------------------psycho-card-------------------------------*/
+	.psycho__card {
+		grid-template-columns: auto 1fr;
+		grid-row-gap: 20px;
+	}
+	.psycho-card__info {
+		row-gap: 16px;
+	}
+	.psycho-card__tabs-block {
+		display: none;
+	}
+
+	/*----------------------------------calendar-------------------------------*/
+	.calendar__header {
+		grid-template-columns: 35px repeat(7,1fr);
+	}
+	.calendar__body {
+		grid-template-columns: 35px 1fr;
+	}
+	.calendar__event-name {
+		display: none;
+	}
+	.calendar-hint__name {
+		display: block;
+	}
+
+	/*----------------------------------experts-------------------------------*/
+	.experts__title {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	.experts__text {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 30px;
+	}
+	.experts__cards {
+		height: 20.83vw;
+		min-height: 160px;
+		min-width: 670px;
+	}
+	.experts__card {
+		width: 23.88%;
+		min-width: 160px;
+	}
+	.experts__card:nth-child(5) {
+		padding: 0px 16px;
+	}
+	.experts__card-text {
+		font-size: 16px;
+	}
+
+	/*----------------------------------FAQ-------------------------------*/
+	.faq__readmore-container {
+		padding: 30px;
+	}
+
+	/*----------------------------------steps-------------------------------*/
+	.steps__nav {
+		display: none;
+	}
+
+	/*----------------------------------aside-------------------------------*/
+	.aside {
+		flex-direction: column;
+	}
+
+	/*----------------------------------grid-------------------------------*/
+	.grid {
+		grid-row-gap: 30px;
+	}
+	.grid__content {
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+
+	/*----------------------------------card-------------------------------*/
+	.card {
+		min-height: 0;
+		padding: 20px;
+	}
+	.card__header {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.card__header > .icon {
+		margin-left: 0;
+	}
+	.card__content {
+		row-gap: 20px;
+	}
+	.card__reviews-content {
+		grid-template-columns: 1fr;
+		grid-row-gap: 50px;
+	}
+
+	/*----------------------------------badge-------------------------------*/
+	.badge-block {
+		row-gap: 10px;
+		column-gap: 10px;
+	}
+
+	/*----------------------------------pay-------------------------------*/
+	.pay-card {
+		display: flex;
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.pay__badge {
+		width: 98px;
+		font-size: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.text {
+		font-size: 16px;
+	}
+	.title {
+		font-size: 28px;
+	}
+	.subtitle {
+		font-size: 18px;
+	}
+	.note {
+		font-size: 12px;
+	}
+	.popup__title {
+		font-size: 22px;
+	}
+	.section {
+		padding: 35px 0;
+	}
+	.section-alt {
+		padding-top: 20px;
+	}
+	.section__spacing {
+		margin-bottom: 30px;
+	}
+	.logo {
+		width: 120px;
+	}
+	.border-button {
+		width: 100%;
+	}
+	.method__cards {
+		flex-direction: column;
+	}
+	.promo__header {
+		column-gap: 10px;
+		font-size: 28px;
+	}
+	.promo__button {
+		padding: 8px 24px;
+	}
+
+	/*----------------------------------form-------------------------------*/
+	.form__image-cell {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.form-image__side {
+		width: 100%;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.form-image__info {
+		width: 100%;
+	}
+	.form__button-block {
+		flex-direction: column;
+	}
+	.file__card {
+		grid-template-columns: 50px 1fr 32px;
+		grid-column-gap: 10px;
+	}
+	.file-card__img {
+		width: 50px;
+		height: 50px;
+	}
+	.timezone__select {
+		padding: 0;
+		font-size: 12px;
+	}
+
+	/*----------------------------------sliders-------------------------------*/
+	.slider__points {
+		column-gap: 10px;
+	}
+	.slider__point {
+		width: 10px;
+		height: 10px;
+	}
+
+	/*----------------------------------popups-------------------------------*/
+	.popup {
+		justify-content: flex-end;
+	}
+	.popup__body {
+		max-height: 100vh;
+		height: 100%;
+		width: 90vw;
+		transform: translate(100%, 0);
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		padding: 20px;
+	}
+	.popup__container {
+		padding: 20px;
+		padding-right: 0;
+		padding-top: 0;
+	}
+	.login-popup__more {
+		flex-direction: column;
+		align-items: flex-end;
+		row-gap: 20px;
+	}
+	.book-popup__h-line {
+		display: none;
+	}
+	.book-popup__radio-group {
+		column-gap: 0;
+		justify-content: space-between;
+	}
+	.book-popup__button {
+		width: 100%;
+	}
+
+	/*----------------------------------grid-------------------------------*/
+	.grid {
+		grid-row-gap: 20px;
+	}
+
+	/*----------------------------------calendar-------------------------------*/
+	.calendar__global {
+		flex-direction: column-reverse;
+		row-gap: 10px;
+	}
+	.calendar__header {
+		grid-template-columns: 24px repeat(7,1fr);
+	}
+	.calendar__body {
+		grid-template-columns: 24px 1fr;
+	}
+	.calendar__day-header {
+		padding: 4px;
+	}
+	.calendar__weekday {
+		font-size: 10px;
+	}
+	.calendar__time {
+		font-size: 12px;
+		font-weight: 700;
+	}
+	.calendar__event-img {
+		width: 100%;
+		height: 10vw;
+		max-height: 100%;
+	}
+	.calendar__event-time {
+		display: none;
+	}
+
+	/*----------------------------------timetable-------------------------------*/
+	.timetable__row {
+		grid-template-columns: 1fr;
+	}
+
+	/*----------------------------------psycho-card-------------------------------*/
+	.psycho__card {
+		padding: 10px;
+	}
+	.psycho-card__img {
+		width: 125px;
+		height: 125px;
+	}
+	.psycho-card__button {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	.psycho-card__grid {
+		grid-template-columns: 1fr;
+	}
+	.psycho__small-card {
+		column-gap: 20px;
+	}
+
+	/*----------------------------------experts-------------------------------*/
+	.experts__title {
+		margin-bottom: 30px;
+	}
+	.experts__card-text {
+		font-size: 14px;
+	}
+
+	/*----------------------------------FAQ-------------------------------*/
+	.faq__readmore-title {
+		font-size: 18px;
+	}
+	.faq__readmore-container {
+		padding: 20px;
+	}
+	.readmore__cover {
+		column-gap: 25px;
+	}
+
+	/*----------------------------------steps-------------------------------*/
+	.steps__form {
+		background: var(--bg-color);
+		padding: 0;
+	}
+	.steps-form__header {
+		border: none;
+		padding: 0;
+	}
+	.steps__title {
+		font-size: 22px;
+	}
+	.steps__button {
+		width: 100%;
+	}
+
+	/*----------------------------------pay-------------------------------*/
+	.pay-card__button {
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,119 @@
+/*
+* Common styles.
+*/
+@import url('common/common.css');
+
+/*
+* Media styles.
+*/
+@import url('common/media.css');
+
+/*
+* Text styles.
+*/
+@import url('common/text.css');
+
+/*
+* Buttons styles.
+*/
+@import url('common/buttons.css');
+
+/*
+* Nav styles.
+*/
+@import url('common/nav.css');
+
+/*
+* Sliders styles.
+*/
+@import url('common/sliders.css');
+
+/*
+* Tabs styles.
+*/
+@import url('common/tabs.css');
+
+/*
+* Form styles.
+*/
+@import url('common/form.css');
+
+/*
+* Calendar styles.
+*/
+@import url('common/calendar.css');
+
+/*
+* Timetable styles.
+*/
+@import url('common/timetable.css');
+
+/*
+* Review card styles.
+*/
+@import url('common/review-card.css');
+
+/*
+* Card styles.
+*/
+@import url('common/card.css');
+
+/*
+* Popups styles.
+*/
+@import url('common/popup.css');
+
+/*
+* Psychologist card styles.
+*/
+@import url('common/psycho-card.css');
+
+/*
+* Info cards styles.
+*/
+@import url('common/info-cards.css');
+
+/*
+* Drop-down styles.
+*/
+@import url('common/dropdown.css');
+
+/*
+* Filter styles.
+*/
+@import url('common/filter.css');
+
+/*
+* Steps styles.
+*/
+@import url('common/steps.css');
+
+/*
+* Badge styles.
+*/
+@import url('common/badge.css');
+
+/*
+* Pay styles.
+*/
+@import url('common/pay.css');
+
+/*
+* Experts styles.
+*/
+@import url('common/experts.css');
+
+/*
+* FAQ styles.
+*/
+@import url('common/faq.css');
+
+/*
+* Readmore styles.
+*/
+@import url('common/readmore.css');
+
+/*
+* Info cards styles.
+*/
+@import url('common/rating.css');

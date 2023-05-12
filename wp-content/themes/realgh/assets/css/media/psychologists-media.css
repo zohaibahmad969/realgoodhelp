@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px){
+	.psychologists {
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+	.psycho__cards {
+		row-gap: 20px;
+		margin-bottom: 30px;
+	}
+}

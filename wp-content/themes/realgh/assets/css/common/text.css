@@ -1,0 +1,48 @@
+/*----------------------------------text-------------------------------*/
+
+.text {
+	font-family: Raleway;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	color: var(--text-color);
+}
+.button-text {
+	font-family: Raleway;
+	line-height: 120%;
+	text-align: center;
+	color: inherit;
+	transition: color var(--hover-time) ease-out;
+}
+.title{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 118%;
+	color: var(--dark-color);
+}
+.subtitle {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 130%;
+	color: var(--dark-color);
+}
+.icon {
+	font-size: inherit;
+	font-weight: 400;
+	color: inherit;
+	transition: color var(--hover-time) ease-out;
+}
+.link{
+	text-decoration: none;
+}
+.note {
+	font-size: 15px;
+	line-height: 130%;
+	font-weight: 600;
+	color: var(--grey-color);
+}
+.error-message {
+	color: var(--error-color);
+}

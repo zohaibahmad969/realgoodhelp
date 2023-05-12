@@ -1,0 +1,28 @@
+/*----------------------------------dropdown-------------------------------*/
+.dropdown__container {
+	position: relative;
+	padding-bottom: 4px;
+}
+.dropdown__button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 6px;
+	cursor: pointer;
+}
+.dropdown__button > .icon {
+	font-size: 24px;
+	transition: transform var(--hover-time) ease-out;
+}
+.dropdown__container:hover > .dropdown__button > .realgh-chevron-down {
+	transform: rotateZ(-180deg);
+}
+.dropdown {
+	overflow: hidden;
+	position: absolute;
+	z-index: 5;
+	top: 100%;
+	right: 0;
+	height: 0;
+	transition: height var(--hover-time) ease-out;
+}

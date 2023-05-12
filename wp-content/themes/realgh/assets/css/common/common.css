@@ -1,0 +1,216 @@
+/*----------------------------------common-------------------------------*/
+
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+.page{
+	overflow: hidden;
+	background: var(--bg-color);
+}
+.wrapper{
+	max-width: 1390px;
+	width: 90%;
+	margin: auto;
+}
+.main{
+	margin-top: var(--header-height);
+}
+.social {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+	font-size: 24px;
+}
+
+/*----------------------------------social-------------------------------*/
+.socila__link {
+	transition: transform var(--hover-time) ease-out;
+}
+.socila__link:hover {
+	transform: scale(1.1);
+}
+
+/*----------------------------------section-------------------------------*/
+.section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section-alt {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.section__title {
+	text-align: center;
+}
+.section__spacing {
+	margin-bottom: 70px;
+}
+
+/*----------------------------------article-------------------------------*/
+.article {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+.article__title {
+	margin-bottom: 10px;
+}
+.article__block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+/*----------------------------------aside-------------------------------*/
+.aside__container {
+	grid-template-columns: 47fr 100fr;
+}
+.aside__rev-container {
+	grid-template-columns: 100fr 47fr;
+}
+.aside {
+	height: max-content;
+}
+.aside__main-content {}
+
+/*----------------------------------flex-------------------------------*/
+.d-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*----------------------------------grid-------------------------------*/
+.grid {
+	display: grid;
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+}
+.grid__content {
+	grid-template-columns: 1fr 1fr;
+}
+.grid__column {
+	grid-template-rows: auto;
+}
+
+/*----------------------------------list-------------------------------*/
+.list {
+	list-style: inside;
+	list-style-position: outside;
+}
+.list > .list__item {
+	margin-left: 15px;
+}
+.article__block > .list > li {
+	font-family: Raleway;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	color: var(--text-color);
+}
+.list__item {}
+
+/*----------------------------------status-------------------------------*/
+.status-block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+}
+.status-block.online > .status { color: var(--main-color); }
+.status-block.online > .text { display: none; }
+.status-block.online > .status > .text  { color: var(--main-color); }
+.status {
+	display: flex;
+	align-items: center;
+	column-gap: 4px;
+	font-size: 24px;
+	color: var(--grey-color);
+}
+
+/*----------------------------------promo-------------------------------*/
+.promo__header {
+	column-gap: 15px;
+	font-size: 32px;
+}
+.promo__content {
+	max-width: 390px;
+	width: 106%;
+}
+.promo__button {
+	height: 100%;
+	transform: translateX(-15%);
+}
+
+/*----------------------------------method-------------------------------*/
+.method__cards {
+	width: 100%;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+.method__label {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	background: #F0F0F3;
+	border: 2px solid #F0F0F3;
+	border-radius: 16px;
+	box-sizing: border-box;
+	padding: 20px 16px 16px 25px;
+	transition: var(--hover-time) ease-out;
+	transition-property: background, border;
+}
+.method__label:hover {
+	background: #E5EEFF;
+	border: 2px solid #E5EEFF;
+}
+.check__input.empty + .method__label {
+	border-color: var(--error-color);
+}
+.check__input:checked + .method__label {
+	background: var(--bg-color);
+	border: 2px solid #6BA7FA;
+	pointer-events: none;
+}
+.method-card {
+	max-width: 410px;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+
+.info__section {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+}
+
+/*----------------------------------js-------------------------------*/
+.js-popup {
+	cursor: pointer;
+}
+
+/*----------------------------------blocks-------------------------------*/
+.h-line {
+	width: 100%;
+	height: 2px;
+	background: var(--light-color);
+}
+.bg {
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.tint {
+	background: rgba(29, 61, 96, 0.86);
+}
+.extend {
+	background: var(--light-color);
+	padding: 30px 0;
+}
+.empty {}

@@ -1,0 +1,79 @@
+/*
+* Common media styles.
+*/
+@import url('media/common-media.css');
+
+/*
+* Modifiers media styles.
+*/
+@import url('media/modifiers-media.css');
+
+/*
+* Header media styles.
+*/
+@import url('media/header-media.css');
+
+/*
+* Main media styles.
+*/
+@import url('media/main-media.css');
+
+/*
+* Psychologists media styles.
+*/
+@import url('media/psychologists-media.css');
+
+/*
+* Request page media styles.
+*/
+@import url('media/request-media.css');
+
+/*
+* Questionnaire media styles.
+*/
+@import url('media/questionnaire-media.css');
+
+/*
+* Dashboard media styles.
+*/
+@import url('media/dashboard-media.css');
+
+/*
+* Reminder page media styles.
+*/
+@import url('media/reminder-media.css');
+
+/*
+* Booking media styles.
+*/
+@import url('media/booking-media.css');
+
+/*
+* Single media styles.
+*/
+@import url('media/single-media.css');
+
+/*
+* Become psychologist media styles.
+*/
+@import url('media/become-media.css');
+
+/*
+* Schedule page media styles.
+*/
+@import url('media/schedule-media.css');
+
+/*
+* Invite media styles.
+*/
+@import url('media/invite-media.css');
+
+/*
+* Withdraw media styles.
+*/
+@import url('media/withdraw-media.css');
+
+/*
+* Footer media styles.
+*/
+@import url('media/footer-media.css');

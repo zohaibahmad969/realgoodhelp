@@ -1,0 +1,60 @@
+@media only screen and (max-width: 800px) {
+	/*----------------------------------single-psycho-------------------------------*/
+	.single-psycho__content-header {
+		grid-template-columns: 126px 1fr;
+		grid-column-gap: 20px;
+	}
+	.single-psycho__header-left {
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	.single-psycho__img {
+		width: 126px;
+		height: 126px;
+	}
+	.single-psycho__rating-block {
+		justify-content: space-between;
+		column-gap: 0;
+	}
+	.single-psycho__rating {
+		column-gap: 2px;
+	}
+	.single-psycho__rating > .rating__star {
+		width: 18px;
+		height: 18px;
+	}
+	.single-psycho__age {
+		display: none;
+	}
+	.single-psycho__answers {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	.single-psycho__tab-label {
+		font-size: 15px !important;
+		padding: 10px 16px;
+	}
+
+	/*----------------------------------single-client-------------------------------*/
+	.single-client__card {
+		grid-template-columns: 175px 1fr;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	/*----------------------------------single-psycho-------------------------------*/
+	.single-psycho__flex {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.single-psycho__aside-content {
+		row-gap: 10px;
+	}
+
+	/*----------------------------------single-client-------------------------------*/
+	.single-client__card {
+		grid-template-columns: 1fr;
+	}
+}

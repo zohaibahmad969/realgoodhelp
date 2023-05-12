@@ -1,0 +1,113 @@
+/*----------------------------------reminder-------------------------------*/
+.reminder {
+	display: grid;
+	grid-template-columns: 1fr 600px;
+	grid-column-gap: 120px;
+	align-items: center;
+}
+.reminder__img {}
+.reminder__content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+}
+.reminder__text-block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+	text-align: center;
+}
+.reminder__form {
+	row-gap: 20px;
+}
+.reminder__tabs {
+	overflow: hidden;
+	border-radius: 20px;
+}
+.reminder__tab-label {
+	background: #F1F1F1;
+	padding: 8px 0;
+	transition: var(--hover-time) ease-out;
+	transition-property: background, color;
+}
+.tab:checked + .reminder__tab-label {
+	background: var(--main-color);
+	color: var(--bg-color);
+}
+.reminder__tab-item {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+}
+.reminder__fields {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+.reminder__form-row {
+	position: relative;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+.reminder_repeat {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 70px;
+	grid-column-gap: 8px;
+	align-items: center;
+}
+.reminder__remove-button {
+	position: absolute;
+	left: calc(100% + 4px);
+	height: max-content;
+	width: max-content;
+}
+.readmore__add-button {
+	width: max-content;
+	margin: auto;
+}
+.reminder__buttons-block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+/*----------------------------------my-strategies-------------------------------*/
+.reminder__card {
+	display: flex;
+	flex-direction: column;
+	row-gap: 6px;
+}
+.reminder__card .reminder-card__row .text {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--dark-color);
+}
+.theme__cards .reminder__card .reminder-card__title {
+	color: var(--dark-color);
+	font-weight: 700;
+}
+.reminder-card__body {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	background: #D5E8FB;
+	border-radius: 10px;
+	padding: 20px;
+}
+.reminder-card__row {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 10px;
+}
+.reminder-card__cell {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+.reminder-card__cell > .icon {
+	font-size: 20px;
+}

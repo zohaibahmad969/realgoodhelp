@@ -1,0 +1,32 @@
+/*----------------------------------thank-you-------------------------------*/
+.thank-you {
+	min-height: calc(100vh - var(--header-height));
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	row-gap: 32px;
+	box-sizing: border-box;
+}
+.thank-you__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 16px;
+	text-align: center;
+}
+.thank-you__img {
+	width: 120px;
+	height: 120px;
+}
+.thank-you__social-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 30px;
+}
+.thank-you__social {
+	justify-content: center;
+	column-gap: 10px;
+	row-gap: 10px;
+	flex-wrap: wrap;
+}

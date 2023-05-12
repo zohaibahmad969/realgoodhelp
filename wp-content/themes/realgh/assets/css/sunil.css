@@ -1,0 +1,382 @@
+/*----------------------------------sunil-------------------------------*/
+.reponseMsg, .errorMsg {
+	font-size:16px;
+	font-family: Raleway;
+	margin-bottom: 15px;
+	line-height: 25px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.reponseMsg {
+	border-left: 5px solid #49c85f;
+	box-shadow: 0 0 10px -6px #49c85f;
+}
+.errorMsg {
+	border-left: 5px solid var(--error-color);
+	box-shadow: 0 0 10px -6px var(--error-color);
+}
+.social-logins {
+	display:flex;
+	justify-content: space-between;
+}
+div.nsl-container .nsl-button-default div.nsl-button-label-container {
+	font-size:15px!important;
+}
+.cus-or-text {
+	text-align:center;
+	margin:20px 0;
+	font-family: 'Raleway';
+	color: #9391A0;
+	font-size: 12px;
+}
+.social-logins div.nsl-container .nsl-button-google[data-skin="light"] {
+	box-shadow: none!important;
+	border: 1px solid #E8E8E8;
+	border-radius: 6px!important;
+	color: #494957!important;
+}
+.social-logins div.nsl-container .nsl-button-facebook[data-skin="light"] {
+	box-shadow: none!important;
+	border: 1px solid #E8E8E8;
+	border-radius: 6px!important;
+	color: #494957!important;
+}
+#agree, #client, #therapist {
+	cursor: pointer;
+}
+.cus-pri-lists {
+	list-style: disc;
+	margin-bottom: 10px;
+}
+.privacy-wrapper ul {
+	padding-left: 40px;
+	margin-bottom: 10px;
+}
+.privacy-wrapper p {
+	margin-bottom: 20px;
+}
+.privacy-wrapper .title {
+	font-size: 30px;
+}
+.cus-pri-small-bold {
+	font-weight: 700;
+}
+.cus-itelic-bold {
+	font-weight: 700;
+	font-style: italic;
+}
+#continueForm {
+	display: none;
+}
+.check__label.checkbox__label {
+	position: relative;
+}
+.check__label.checkbox__label .check__input {
+	display: inline-block !important;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	height: 24px;
+	width: 24px;
+}
+.cus-client-therapist-btn {
+	display: flex;
+	margin: 50px 0;
+}
+#formRegistraion {
+	display: none;
+}
+.cus-continue-sign-up-btn {
+	width: 100%;
+	margin: 30px 0;
+	font-family: 'Raleway';
+}
+.cus-client-therapist-btn .regist-popup__type {
+	width: 100%;
+	display: block;
+}
+.cus-my-account-btn {
+	text-decoration: none;
+}
+.questionnaire__form {
+	display: block;
+}
+
+
+
+.cus-star {
+	color:red;
+	font-size: 26px;
+}
+.cus-text-limit {
+	margin-left: auto;
+	color: #9391A0;
+	font-size: 15px;
+	font-family: 'Raleway';
+}
+.pay_loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+@media(max-width:767px){
+	.pay_loader{top:18%;}
+}
+.loader-wrap {
+	background: rgba(255, 255, 255, 0.7);
+	z-index: 9998;
+	position: fixed;
+	justify-content: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	align-items: center;
+	display: none;
+}
+.loader-wrap.is-active {
+	display: flex;
+}
+.cus_work_radio {
+	display: flex;
+}
+.mandatory-text {
+	color: var(--error-color);
+	font-size: 12px;
+}
+.cus_select_dropdown:focus {
+	box-shadow: none;
+	border: 1px solid #e8e8e8;
+}
+.cus_select_dropdown option {
+	border: 1px solid #e8e8e8;
+}
+.cus-capitalize-text {
+	text-transform: capitalize;
+}
+.cus-psycho-card-info a {
+	text-decoration: none;
+}
+.cus-my-account-profile-btn {
+	width: 65px;
+	height: 65px;
+}
+
+.cus-edit-phone input {
+	margin-top: 18px;
+}
+.bookButton {
+	width: 100%;
+	font-family: 'Raleway';
+}
+.cus-booking-user-img img {
+	border-radius: 8px;
+	border: none;
+	width: 100%;
+	height: auto;
+}
+.successMsg {
+	color:#42ba96;
+}
+.cus-profile-upload-label {
+	position: relative;
+	display: grid;
+}
+.cus-profile-upload-label .input-file {
+	position: absolute;
+	z-index: -999;
+	display: block;
+}
+.privacy-list li {
+	list-style: disc;
+	margin-bottom: 10px;
+	font-size:18px;
+}
+.cus-dis-block {
+	display: block;
+}
+.cus-file-upload {
+	position: relative;
+	display: flex;
+}
+.cus_column__flex {
+	display: flex;
+}
+.alert-error {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	font-weight: 700;
+}
+
+.d-block {
+	display: block;
+}
+.success-message {
+	color: #7bcc8e;
+}
+#client_agree {
+	margin-bottom: 15px;
+	position: relative;
+}
+#client_checkbox {
+	position: absolute;
+	display: block;
+	width: 18px;
+	height: 18px;
+}
+.client-check-field {
+	margin-bottom: 35px;
+}
+.client-check-field .desc {
+	display: inline-block;
+	padding-left: 30px;
+}
+.client-check-field #client_checkbox-error {
+	position: absolute;
+	bottom: 10px;
+}
+
+.warning-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 8px;
+	padding: 13px;
+	background: #fdf8e4;
+	font-family: 'Raleway';
+	font-size: 18px;
+	font-weight: 600;
+	border: 2px solid #fdf8e4;
+	box-shadow: 0 0 4px 0px #e7e7e7;
+	color: #8b6b33;
+}
+.warning-wrapper img {
+	width: 50px;
+}
+.warning-img-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 25px;
+}
+.warning-btn a {
+	text-decoration: none;
+	border-radius: 8px;
+	width: 150px;
+	padding: 16px;
+	background: #fdf8e4;
+	font-family: 'Raleway';
+	font-size: 18px;
+	font-weight: 600;
+	border: 1px solid #aba18f;
+	box-shadow: 0 0 9px 0px #b1b1b1;
+	color: #8b6b33;
+	font-weight: 700;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.warning-btn {
+	transition: 0.4s ease;
+}
+.warning-btn:hover {
+	transform: scale(1.05);
+}
+.warning_section {
+	padding-top: 30px;
+}
+.warning_padding {
+	padding-bottom: 30px;
+}
+@media (max-width:768px) {
+	.warning-btn a {
+		width: 100%;
+		margin-top: 25px;
+	}
+	.warning-wrapper {
+		justify-content: center;
+		align-items: center;
+		display: block;
+	}
+}
+
+#videoType {
+	text-transform: capitalize;
+}
+.cancel_session_card {
+	background: #ffedec;
+}
+.cancel_session_card::before {
+	background: #f41700;
+}
+
+@media (max-width:1000px) {
+	.mob-grid { display: grid!important; }
+}
+
+.all-therapist-img{
+	height: 100%;
+	width: 100%;
+}
+
+.money-back-btn{
+	padding: 20px 0px;
+	max-width: 175px;
+	font-weight: 800;
+	color: rgb(99 105 108);
+}
+
+.money-back-btn img{
+	width: 70px;
+}
+
+@media (max-width:767px)
+{
+	.money-back-btn{
+		max-width: 100%;
+	}
+	.psycho-card__button--mobile.single-psy-btn{
+		display: block;
+	}
+	.single-psy-btn span{
+		display: block;
+	}
+}
+
+.agree-label{
+	margin-top: 20px;
+}
+.experts__cards_mob{
+	display: none;
+}
+	
+@media (max-width:599px){
+	.experts__cards_mob{
+		display: block;
+}
+	.experts__cards_desk{
+		display: none;
+	}
+}
+@media (max-width:480px){
+.experts__cards_mob .experts__card {
+	width: 17.88%;min-width: 130px;height: 80%;
+}
+	.experts__cards_mob .experts__card:nth-child(2) {
+	left: 16.5%;
+}
+	.experts__cards_mob .experts__card:nth-child(3) {
+		left: 33%;
+	}
+}
+.experts__cards_desk .experts__card:nth-child(5){
+	background: none;
+	padding: initial;
+}
+					

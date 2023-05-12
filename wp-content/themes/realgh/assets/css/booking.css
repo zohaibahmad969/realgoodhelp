@@ -1,0 +1,45 @@
+/*----------------------------------booking-------------------------------*/
+.booking__types {
+	grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+}
+
+/*----------------------------------step-1-------------------------------*/
+.booking-type__bot {
+	align-items: flex-end;
+}
+.booking-type__price {
+	background: #FFFFFF;
+	border-radius: 48px;
+	padding: 12px 18px;
+}
+.check__input:checked + .booking__card > .booking-type__bot > .booking-type__price {
+	background: #F0F0F3;
+}
+
+/*----------------------------------step-2-------------------------------*/
+.booking__calendar-fields {
+	display: none;
+}
+
+/*----------------------------------step-3-------------------------------*/
+.booking__call-method {
+	justify-content: center;
+	column-gap: 50px;
+}
+.booking__method-img {
+	max-width: 240px;
+	height: auto;
+}
+
+/*----------------------------------step-4-------------------------------*/
+.booking__issues {
+	width: 100%;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	grid-row-gap: 15px;
+}
+.booking__input {
+	max-width: 380px;
+}

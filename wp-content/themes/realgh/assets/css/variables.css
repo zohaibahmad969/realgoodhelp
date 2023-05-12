@@ -1,0 +1,17 @@
+:root{
+	--main-color: #6BA7FA;
+	--text-color: #494957;
+	--dark-color: #000000;
+	--grey-color: #9391A0;
+	--bg-color: #FFFFFF;
+	--light-color: #FAFAFA;
+	--disabled-color: #E8E8E8;
+	--button-color: #FADB6B;
+	--error-color: #fe6767;
+	--success-color: #42ba96;
+	--header-height: 110px;
+	--calendar-cell-height: 72px;
+	--check-size: 24px;
+	--hover-time: 300ms;
+	--main-slider-count: 2;
+}

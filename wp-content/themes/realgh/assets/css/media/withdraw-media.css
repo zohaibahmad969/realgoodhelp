@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1200px){
+	.withdraw__text-block {
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		column-gap: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	.withdraw__grid {
+		grid-column-gap: 16px;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.withdraw__table-title {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.withdraw-date__day {
+		font-size: 24px;
+	}
+}

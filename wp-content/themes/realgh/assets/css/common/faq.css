@@ -1,0 +1,50 @@
+/*----------------------------------FAQ-------------------------------*/
+.faq {
+	padding-top: 90px;
+	padding-bottom: 85px;
+}
+.faq__content {
+	max-width: 1150px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	margin: auto;
+}
+.faq__readmore-container {
+	background: var(--bg-color);
+	box-shadow: 0px 1px 15px rgba(80, 19, 255, 0.1);
+	border-radius: 8px;
+	cursor: pointer;
+	padding: 50px;
+}
+.faq__readmore-cover {
+	column-gap: 65px;
+	margin-bottom: 20px;
+}
+.faq__readmore-title {
+	font-family: 'Gilroy';
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 120%;
+	color: var(--dark-color);
+}
+.faq__readmore-button {
+	width: 50px;
+	height: 50px;
+	background: var(--bg-color);
+	border-radius: 50%;
+	transition: var(--hover-time) ease-out;
+	transition-property: color, background;
+}
+.faq__readmore-button.show {
+	background: var(--main-color);
+	color: var(--bg-color);
+}
+.faq__text {
+	font-size: 18px;
+	line-height: 140%;
+}
+.faq__top-text {
+	display: block;
+	margin-bottom: 18px;
+}

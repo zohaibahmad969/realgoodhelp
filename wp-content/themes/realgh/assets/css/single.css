@@ -1,0 +1,100 @@
+/*----------------------------------single-psycho-------------------------------*/
+.single-psycho__content-header {
+	display: grid;
+	grid-template-columns: 240px 1fr;
+	grid-column-gap: 40px;
+	grid-row-gap: 20px;
+}
+.single-psycho__header-left {
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.single-psycho__header-item {
+	align-self: start;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.single-psycho__img {
+	width: 240px;
+	height: 240px;
+	border-radius: 8px;
+}
+.single-psycho__psycho-info {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+.single-psycho__rating-block {}
+.single-psycho__rating {}
+.single-psycho__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+	grid-column-gap: 20px;
+	grid-row-gap: 4px;
+}
+.single-psycho__desc-item {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+.single-psycho__desc-header {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
+.single-psycho__age {}
+.single-psycho__flex {
+	column-gap: 10px;
+	row-gap: 20px;
+}
+.single-psycho__answers {}
+.single-psycho__section {
+	display: flex;
+	flex-direction: column;
+}
+.single-psycho__title {
+	margin-bottom: 20px;
+}
+.single-psycho__tabs {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	row-gap: 10px;
+}
+.single-psycho__tab-label {
+	width: auto;
+	border: 1px solid var(--disabled-color);
+	border-radius: 56px;
+	padding: 10px 30px;
+	transition: background var(--hover-time) ease-out;
+}
+.tab:checked + .single-psycho__tab-label {
+	border: 1px solid var(--main-color);
+}
+.single-psycho__tab-label:hover {
+	background: var(--disabled-color);
+}
+.single-psycho__button {
+	margin: auto;
+}
+.single-psycho__aside-content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 13px;
+}
+
+/*----------------------------------single-client-------------------------------*/
+.single-client__card {
+	display: grid;
+	grid-template-columns: 240px 1fr;
+}
+.single-client__card-left {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.single-client__img {
+	height: auto;
+}

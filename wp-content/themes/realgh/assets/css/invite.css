@@ -1,0 +1,54 @@
+/*----------------------------------invite-------------------------------*/
+.invite__body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 50px;
+	grid-row-gap: 50px;
+}
+.invite__content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 60px;
+}
+.invite__title {
+	max-width: 380px;
+	font-size: 58px;
+}
+.invite__text {
+	max-width: 490px;
+}
+.invite__send-block {
+	max-width: 550px;
+	column-gap: 30px;
+	row-gap: 20px;
+}
+.invite__input {
+	height: 58px;
+}
+.invite__link-block {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+}
+.invite__button {
+	border-radius: 100px;
+	color: var(--dark-color);
+	text-transform: none;
+	padding: 14px 30px;
+}
+.invite__social {
+	column-gap: 20px;
+}
+.invite__social-link {
+	width: 47px;
+	height: 47px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: var(--main-color);
+	transition: transform var(--hover-time) ease-out;
+}
+.invite__social-link:hover {
+	transform: scale(1.1);
+}

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1000px){
+	.header__desktop {
+		display: none;
+	}
+	.header__right {
+		flex-direction: column;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.header__logo {
+		width: 100px;
+	}
+}

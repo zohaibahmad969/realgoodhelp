@@ -1,0 +1,234 @@
+/*----------------------------------text-------------------------------*/
+.fz-12 {
+	font-size: 12px;
+}
+.fz-14 {
+	font-size: 14px;
+}
+.fz-16 {
+	font-size: 16px;
+}
+.fz-18 {
+	font-size: 18px;
+}
+.fz-20 {
+	font-size: 20px;
+}
+.fz-22 {
+	font-size: 22px;
+}
+.fz-28 {
+	font-size: 28px;
+}
+.fz-32 {
+	font-size: 32px;
+}
+.fw-500 {
+	font-weight: 500;
+}
+.fw-600 {
+	font-weight: 600;
+}
+.fw-700 {
+	font-weight: 700;
+}
+.tt-upp {
+	text-transform: uppercase;
+}
+.tt-cap {
+	text-transform: capitalize;
+}
+.ta-c {
+	text-align: center;
+}
+.whs-nw {
+	white-space: nowrap;
+}
+
+/*----------------------------------colors-------------------------------*/
+.c-main {
+	color: var(--main-color);
+}
+.c-text {
+	color: var(--text-color);
+}
+.c-white {
+	color: var(--bg-color);
+}
+.c-dark {
+	color: var(--dark-color);
+}
+.c-grey {
+	color: var(--grey-color);
+}
+.c-yellow {
+	color: var(--button-color);
+}
+/*------social-----*/
+.c-twitter {
+	color: #6BA7FA;
+}
+.c-facebook {
+	color: #305383;
+}
+.c-youtube {
+	color: #E30000;
+}
+.c-instagram {
+	color: #E1306C;
+}
+.c-tiktok {
+	color: #000000;
+}
+.c-linkedin {
+	color: #0A66C2;
+}
+
+/*----------------------------------spaces-------------------------------*/
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+/*----------------------------------popups-------------------------------*/
+.popup--side {
+	justify-content: flex-end;
+}
+.popup__body--side {
+	max-height: 100vh;
+	height: 100%;
+	width: 50vw;
+	transform: translate(100%, 0);
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.popup__body--bg {
+	height: 100%;
+	display: grid;
+	background: var(--main-color);
+	padding: 0;
+}
+.regist-popup__body--bg {
+	grid-template-columns: 18fr 25fr;
+}
+.login-popup__body--bg {
+	grid-template-columns: 25fr 18fr;
+}
+.close-button--ps-abs {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+/*----------------------------------mainscreen-------------------------------*/
+.connect--mobile {
+	display: none;
+}
+.connect--desktop {}
+.advantages__title--mobile {
+	display: none;
+}
+.advantages__title--desktop {}
+
+/*----------------------------------psychologists-------------------------------*/
+.psycho-card__button--desktop {}
+.psycho-card__button--mobile {
+	display: none;
+}
+.psycho-info--desktop {}
+.psycho-info--mobile {
+	display: none;
+}
+
+/*----------------------------------dashboard-------------------------------*/
+.banner--desktop {}
+.banner--mobile {
+	display: none;
+}
+.banner__bg--desktop {}
+.banner__bg--mobile {
+	display: none;
+}
+.dashboard__review--desktop {}
+.dashboard__review--mobile {
+	display: none;
+}
+
+/*----------------------------------dashboard-edit-------------------------------*/
+.psycho-edit__name--top {}
+.psycho-edit__name--right {
+	display: none;
+}
+
+/*----------------------------------single-------------------------------*/
+.single-psycho__aside--desktop {}
+.single-psycho__aside--mobile {
+	display: none;
+}
+.single-client__button--desktop {}
+.single-client__button--mobile {
+	display: none;
+}
+
+/*----------------------------------become-------------------------------*/
+.cooperation__title--mobile {
+	display: none;
+}
+.cooperation__title--desktop {}
+
+/*---------------------------------flex-------------------------------*/
+.flex--ai-c {
+	align-items: center;
+}
+.flex--jc-fs {
+	justify-content: flex-start;
+}
+.flex--fxw-w {
+	flex-wrap: wrap;
+}
+.flex--fxsh-0 {
+	flex-shrink: 0;
+}
+
+/*---------------------------------grid-------------------------------*/
+.grid__column--no-stretch {
+	height: min-content;
+}
+
+/*---------------------------------mobile-------------------------------*/
+.mobile--fxd-cr {}
+.mobile-card--p-0 {}
+
+/*----------------------------------blocks-------------------------------*/
+.w-100p {
+	width: 100%;
+}
+.whs-nw {
+	white-space: nowrap;
+}
+.ps-rel {
+	position: relative;
+}
+.card--big {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.button--big {
+	width: 100%;
+	max-width: 292px;
+}
+.logo--mobile {
+	display: none;
+}
+.logo--desktop {}
+.wrapper--small {
+	max-width: 910px;
+}
+.img--bdrs-8 {
+	border-radius: 8px;
+}
+.img--bdrs-20 {
+	border-radius: 20px;
+}
+.not-allow {
+	cursor: not-allowed;
+}

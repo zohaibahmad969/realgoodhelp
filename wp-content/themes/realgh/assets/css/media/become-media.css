@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1200px){
+	/*----------------------------------mainscreen-------------------------------*/
+	.becomescreen__content {
+		max-width: 576px;
+	}
+	.becomescreen__title {
+		font-size: 58px;
+	}
+	.becomescreen__img {
+		object-position: 70%;
+	}
+
+	/*----------------------------------waiting-------------------------------*/
+	.waiting__title {
+		margin-bottom: 10px;
+	}
+
+	/*----------------------------------cooperation-------------------------------*/
+	.cooperation__spacing {
+		margin-bottom: 50px;
+	}
+	.cooperation__section {
+		grid-template-columns: 1fr 1fr;
+	}
+	.cooperation__top {
+		margin-bottom: 100px;
+	}
+	.cooperation__text-block {
+		grid-template-columns: 1fr;
+	}
+	.cooperation__img:nth-child(1) {
+		width: 430px;
+		height: 505px;
+	}
+	.cooperation__img:nth-child(2) {
+		right: auto;
+		left: 0;
+		width: 355px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	.becomescreen {
+		padding: 40px 0;
+		box-sizing: border-box;
+		min-height: calc(100vh - var(--header-height));
+	}
+
+	/*----------------------------------cooperation-------------------------------*/
+	.cooperation__title {
+		max-width: 430px;
+	}
+	.cooperation__spacing {
+		margin-bottom: 40px;
+	}
+	.cooperation-top__left {
+		order: 2;
+	}
+	.cooperation__section {
+		grid-template-columns: 1fr;
+		row-gap: 40px;
+	}
+	.cooperation-top__text-block {
+		grid-template-columns: 1fr 1fr;
+	}
+	.cooperation__item {
+		max-width: 100%;
+	}
+	.cooperation__imgs-block {
+		display: flex;
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.cooperation__img {
+		position: static;
+	}
+	.cooperation__img:nth-child(1), .cooperation__img:nth-child(2) {
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	/*----------------------------------mainscreen-------------------------------*/
+	.becomescreen {
+		display: flex;
+		flex-direction: column;
+		padding: 30px 0;
+	}
+	.becomescreen__wrapper {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+	}
+	.becomescreen__content {
+		flex-grow: 1;
+		justify-content: space-between;
+	}
+	.becomescreen__img {
+		object-position: 75%;
+		opacity: 0.5;
+	}
+
+	/*----------------------------------cooperation-------------------------------*/
+	.cooperation__spacing {
+		margin-bottom: 30px;
+	}
+	.cooperation-top__text-block {
+		grid-template-columns: 1fr;
+	}
+	.cooperation__top {
+		margin-bottom: 70px;
+	}
+}

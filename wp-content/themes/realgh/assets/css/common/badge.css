@@ -1,0 +1,36 @@
+/*----------------------------------badge-------------------------------*/
+.badge-block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	row-gap: 20px;
+	column-gap: 30px;
+	flex-wrap: wrap;
+}
+.badge {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 56px;
+	font-weight: 600;
+	padding: 10px 30px;
+}
+.main-badge {
+	background: #6BA7FA;
+	color: var(--bg-color);
+}
+.border-badge {
+	background: var(--bg-color);
+	box-sizing: border-box;
+	border: 2px solid #F0F0F3;
+}
+.check__input:checked + .border-badge {
+	background: var(--main-color);
+	border: none;
+	color: var(--bg-color);
+}
+.badge__input {
+	width: 155px;
+	border-radius: 56px;
+}

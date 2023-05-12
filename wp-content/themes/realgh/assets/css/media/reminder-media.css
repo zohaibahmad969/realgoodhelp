@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1200px){
+	.reminder {
+		grid-column-gap: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	.reminder {
+		grid-template-columns: 1fr;
+	}
+	.reminder__img {
+		display: none;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.reminder__form-row {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 10px;
+	}
+	.reminder__remove-button {
+		position: static;
+	}
+}

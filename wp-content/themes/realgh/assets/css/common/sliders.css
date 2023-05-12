@@ -1,0 +1,42 @@
+/*----------------------------------slider-------------------------------*/
+.slider {
+	overflow: hidden;
+}
+.slider--spacing {
+	margin: 0 -25px;
+}
+.slider__tape {
+	display: flex;
+	align-items: stretch;
+	justify-content: flex-start;
+	transition: transform var(--hover-time) ease-out;
+}
+.slider__item {
+	flex-shrink: 0;
+}
+
+/*----------------------------------auto-slider-------------------------------*/
+.auto-slider {}
+
+/*----------------------------------point-slider-------------------------------*/
+.slider__tape--points {
+	margin-bottom: 70px;
+}
+.slider__points {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 20px;
+}
+.slider__point {
+	width: 16px;
+	height: 16px;
+	background: #E5EEFF;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background var(--hover-time) ease-out;
+}
+.slider__point.active {
+	background: #6BA7FA;
+	pointer-events: none;
+}

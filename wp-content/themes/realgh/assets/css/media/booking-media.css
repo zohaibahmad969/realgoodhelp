@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1000px){
+	.booking__issues {
+		grid-template-columns: 1fr;
+	}
+}

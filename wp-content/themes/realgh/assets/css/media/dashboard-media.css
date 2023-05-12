@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1200px){
+	.banner {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	.banner__content {
+		width: 60%;
+	}
+	.psycho__banner-content {
+		margin-left: 0;
+	}
+	.banner__title {
+		font-size: 32px;
+		margin-bottom: 2px;
+	}
+	.banner__text {
+		margin-bottom: 25px;
+	}
+
+	/*----------------------------------edit-------------------------------*/
+	.psycho-edit__card-content {
+		width: max-content;
+		flex-direction: row;
+	}
+	.psycho-edit__card-info {
+		align-items: flex-start;
+	}
+
+	/*----------------------------------schedule-page-------------------------------*/
+	.dash-schedule__text-block {
+		flex-direction: column;
+		row-gap: 40px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	.account-card__header {
+		padding-left: 30px;
+		padding-bottom: 10px;
+	}
+	.banner__content {
+		max-width: 60%;
+		width: max-content;
+	}
+	.psycho__banner-content {
+		margin-left: auto;
+	}
+	.banner__title {
+		font-size: 18px;
+		margin-bottom: 6px;
+	}
+	.banner__text {
+		margin-bottom: 20px;
+	}
+
+	/*----------------------------------edit-------------------------------*/
+	.psycho-edit__card--row {
+		column-gap: 20px;
+	}
+	.psycho-edit__card {
+		padding: 20px;
+	}
+
+	/*
+	* ----------------------------------client-------------------------------
+	*/
+	.client-dash__psychologists {
+		grid-template-columns: 1fr;
+		grid-row-gap: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.account-card__header {
+		padding-bottom: 0;
+	}
+	.banner {
+		min-height: 0;
+		padding: 20px 30px;
+	}
+	.banner__content {
+		max-width: 100%;
+		width: min-content;
+	}
+	.dashboard-reviews__text-block {
+		flex-wrap: wrap;
+		column-gap: 20px;
+		row-gap: 10px;
+	}
+
+	/*----------------------------------edit-------------------------------*/
+	.psycho-edit__card-content {
+		width: auto;
+		flex-direction: column;
+	}
+	.psycho-edit__card-info {
+		align-items: center;
+	}
+
+	/*----------------------------------schedule-page-------------------------------*/
+	.dash-schedule__title {
+		margin-bottom: 20px;
+	}
+	.dash-schedule__text-block {
+		row-gap: 30px;
+		margin-bottom: 30px;
+	}
+
+	/*
+	* ----------------------------------client-------------------------------
+	*/
+	.client-dash__card-content {
+		align-items: center;
+		padding: 0;
+		padding-top: 20px;
+	}
+	.client-dash__card-text {
+		display: none;
+	}
+}

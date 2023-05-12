@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-Medium.woff') format('woff'), url('../fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-SemiBold.woff') format('woff'), url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-Bold.woff') format('woff'), url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-ExtraBold.woff') format('woff'), url('../fonts/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy-SemiBold.woff') format('woff'), url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-SemiBold.ttf');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-SemiBold.woff');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-SemiBold.eot');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('../fonts/Nunito-Bold.ttf');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('../fonts/Nunito-Bold.woff');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('../fonts/Nunito-Bold.eot');
+	font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Real-Good-Help';
+    src: url('../fonts/Real-Good-Help.eot?1l6h07');
+    src: url('../fonts/Real-Good-Help.eot?1l6h07#iefix') format('embedded-opentype'), url('../fonts/Real-Good-Help.ttf?1l6h07') format('truetype'), url('../fonts/Real-Good-Help.woff?1l6h07') format('woff'), url('../fonts/Real-Good-Help.svg?1l6h07#Real-Good-Help') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'zaicons';
+    src: url('../fonts/zaicons.eot?3p5vef');
+    src: url('../fonts/zaicons.eot?3p5vef#iefix') format('embedded-opentype'), url('../fonts/zaicons.ttf?3p5vef') format('truetype'), url('../fonts/zaicons.woff?3p5vef') format('woff'), url('../fonts/zaicons.svg?3p5vef#zaicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Real-Good-Help' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.realgh-chat:before {
+  content: "\e900";
+}
+.realgh-check-circle:before {
+  content: "\e901";
+}
+.realgh-chevron-down:before {
+  content: "\e902";
+}
+.realgh-chevron-left:before {
+  content: "\e903";
+}
+.realgh-chevron-right:before {
+  content: "\e904";
+}
+.realgh-repeat:before {
+  content: "\e905";
+}
+.realgh-close:before {
+  content: "\e906";
+}
+.realgh-copy:before {
+  content: "\e907";
+}
+.realgh-date:before {
+  content: "\e908";
+}
+.realgh-dollar:before {
+  content: "\e909";
+}
+.realgh-exit:before {
+  content: "\e90a";
+}
+.realgh-facebook:before {
+  content: "\e90b";
+}
+.realgh-filter:before {
+  content: "\e90c";
+}
+.realgh-instagram:before {
+  content: "\e90d";
+}
+.realgh-link:before {
+  content: "\e90e";
+}
+.realgh-linkedin:before {
+  content: "\e90f";
+}
+.realgh-mail:before {
+  content: "\e910";
+}
+.realgh-online:before {
+  content: "\e911";
+}
+.realgh-person:before {
+  content: "\e912";
+}
+.realgh-phone:before {
+  content: "\e913";
+}
+.realgh-play:before {
+  content: "\e914";
+}
+.realgh-plus:before {
+  content: "\e915";
+}
+.realgh-plus--circle:before {
+  content: "\e916";
+}
+.realgh-plus--fill:before {
+  content: "\e917";
+}
+.realgh-question:before {
+  content: "\e918";
+}
+.realgh-search:before {
+  content: "\e919";
+}
+.realgh-sort-by:before {
+  content: "\e91a";
+}
+.realgh-tag:before {
+  content: "\e91b";
+}
+.realgh-tiktok:before {
+  content: "\e91c";
+}
+.realgh-time:before {
+  content: "\e91d";
+}
+.realgh-tool:before {
+  content: "\e91e";
+}
+.realgh-trash:before {
+  content: "\e91f";
+}
+.realgh-twitter:before {
+  content: "\e920";
+}
+.realgh-youtube:before {
+  content: "\e921";
+}
+
+
+
+/* Zohaib Css Icons */
+
+[class^="zaicon-"],
+[class*=" zaicon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'zaicons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zaicon-Community:before {
+    content: "\e900";
+    color: #535f67;
+}
+
+.zaicon-History:before {
+    content: "\e901";
+    color: #535f67;
+}
+
+.zaicon-Home:before {
+    content: "\e902";
+    color: #f49f0a;
+}
+
+.zaicon-Strategie:before {
+    content: "\e903";
+    color: #535f67;
+}
+
+.zaicon-play:before {
+    content: "\e912";
+}

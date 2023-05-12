@@ -1,0 +1,20 @@
+/*----------------------------------readmore-------------------------------*/
+.readmore {
+	overflow: hidden;
+	transition: max-height var(--hover-time) ease-out;
+}
+.readmore__cover {
+	column-gap: 16px;
+	cursor: pointer;
+}
+.readmore__button {
+	flex-shrink: 0;
+	font-size: 24px;
+}
+.readmore__button > .icon {
+	transition: transform var(--hover-time) ease-out;
+}
+.readmore.show .icon {
+	transform: rotateZ(90deg);
+}
+.readmore__more {}
