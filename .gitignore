@@ -13,7 +13,7 @@
 
 # Ignore everything in the root except the "wp-content" directory.
 # wp-config file
-wp-config.php
+
 .htaccess
 /wp-content/themes/node_modules
 /wp-content/themes/gulpfile.js
